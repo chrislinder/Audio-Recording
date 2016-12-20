@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		625FEF6D1E08C09A00B5481A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625FEF6C1E08C09A00B5481A /* AppDelegate.swift */; };
+		625FEF6F1E08C09A00B5481A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625FEF6E1E08C09A00B5481A /* ViewController.swift */; };
+		625FEF721E08C09A00B5481A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 625FEF701E08C09A00B5481A /* Main.storyboard */; };
+		625FEF741E08C09A00B5481A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 625FEF731E08C09A00B5481A /* Assets.xcassets */; };
+		625FEF771E08C09A00B5481A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 625FEF751E08C09A00B5481A /* LaunchScreen.storyboard */; };
+		625FEF7F1E08C95200B5481A /* recordButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 625FEF7E1E08C95200B5481A /* recordButton.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		625FEF691E08C09A00B5481A /* Audio Recording.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Audio Recording.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		625FEF6C1E08C09A00B5481A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		625FEF6E1E08C09A00B5481A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		625FEF711E08C09A00B5481A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		625FEF731E08C09A00B5481A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		625FEF761E08C09A00B5481A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		625FEF781E08C09A00B5481A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		625FEF7E1E08C95200B5481A /* recordButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recordButton.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		625FEF661E08C09A00B5481A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		625FEF601E08C09A00B5481A = {
+			isa = PBXGroup;
+			children = (
+				625FEF6B1E08C09A00B5481A /* Audio Recording */,
+				625FEF6A1E08C09A00B5481A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		625FEF6A1E08C09A00B5481A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				625FEF691E08C09A00B5481A /* Audio Recording.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		625FEF6B1E08C09A00B5481A /* Audio Recording */ = {
+			isa = PBXGroup;
+			children = (
+				625FEF6C1E08C09A00B5481A /* AppDelegate.swift */,
+				625FEF6E1E08C09A00B5481A /* ViewController.swift */,
+				625FEF701E08C09A00B5481A /* Main.storyboard */,
+				625FEF7E1E08C95200B5481A /* recordButton.png */,
+				625FEF731E08C09A00B5481A /* Assets.xcassets */,
+				625FEF751E08C09A00B5481A /* LaunchScreen.storyboard */,
+				625FEF781E08C09A00B5481A /* Info.plist */,
+			);
+			path = "Audio Recording";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		625FEF681E08C09A00B5481A /* Audio Recording */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 625FEF7B1E08C09A00B5481A /* Build configuration list for PBXNativeTarget "Audio Recording" */;
+			buildPhases = (
+				625FEF651E08C09A00B5481A /* Sources */,
+				625FEF661E08C09A00B5481A /* Frameworks */,
+				625FEF671E08C09A00B5481A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Audio Recording";
+			productName = "Audio Recording";
+			productReference = 625FEF691E08C09A00B5481A /* Audio Recording.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		625FEF611E08C09A00B5481A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "A Dark Matter Creation";
+				TargetAttributes = {
+					625FEF681E08C09A00B5481A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 526T4J8YT4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 625FEF641E08C09A00B5481A /* Build configuration list for PBXProject "Audio Recording" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 625FEF601E08C09A00B5481A;
+			productRefGroup = 625FEF6A1E08C09A00B5481A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				625FEF681E08C09A00B5481A /* Audio Recording */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		625FEF671E08C09A00B5481A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				625FEF771E08C09A00B5481A /* LaunchScreen.storyboard in Resources */,
+				625FEF741E08C09A00B5481A /* Assets.xcassets in Resources */,
+				625FEF7F1E08C95200B5481A /* recordButton.png in Resources */,
+				625FEF721E08C09A00B5481A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		625FEF651E08C09A00B5481A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				625FEF6F1E08C09A00B5481A /* ViewController.swift in Sources */,
+				625FEF6D1E08C09A00B5481A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		625FEF701E08C09A00B5481A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				625FEF711E08C09A00B5481A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		625FEF751E08C09A00B5481A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				625FEF761E08C09A00B5481A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		625FEF791E08C09A00B5481A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		625FEF7A1E08C09A00B5481A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		625FEF7C1E08C09A00B5481A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 526T4J8YT4;
+				INFOPLIST_FILE = "Audio Recording/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.darkmattercreation.Audio-Recording";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		625FEF7D1E08C09A00B5481A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 526T4J8YT4;
+				INFOPLIST_FILE = "Audio Recording/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.darkmattercreation.Audio-Recording";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		625FEF641E08C09A00B5481A /* Build configuration list for PBXProject "Audio Recording" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				625FEF791E08C09A00B5481A /* Debug */,
+				625FEF7A1E08C09A00B5481A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		625FEF7B1E08C09A00B5481A /* Build configuration list for PBXNativeTarget "Audio Recording" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				625FEF7C1E08C09A00B5481A /* Debug */,
+				625FEF7D1E08C09A00B5481A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 625FEF611E08C09A00B5481A /* Project object */;
+}
