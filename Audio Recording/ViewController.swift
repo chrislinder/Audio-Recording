@@ -160,32 +160,18 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     
     internal func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
-
-        var numberOfRows = playList.count
         
-        if numberOfRows == 0 {
-            
-            numberOfRows = 1
-            
-        }
-        
-        return numberOfRows
+        return playList.count
     }
     
     
     internal func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
         
         let cell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "Cell")
-        
-        if playList.isEmpty {
+
             
-            cell.textLabel?.text = "Please Press Record To Add File"
-            
-        }else{
-            
-            cell.textLabel?.text = String(playList[indexPath.row])
-            
-        }
+        cell.textLabel?.text = String(playList[indexPath.row])
+
         
         return cell
         
